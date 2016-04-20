@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <style name="Widget.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionBarColor</item>
+        <item name="android:background">@color/actionBarColor</item>
+        <item name="android:backgroundStacked">@color/actionBarColor</item>
+        <item name="android:backgroundSplit">@color/actionBarColor</item>
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+
+    <style name="cust_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/dialog_title_style</item>
+    </style>
+
+    <style name="dialog_title_style" parent="android:Widget.TextView">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar</item>
+        <item name="android:windowBackground">@drawable/nutri_no_logo</item>
+
+    </style>
+
+    <style name="EditTextLabel" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#009688</item>
+    </style>
+
+    <style name="HorizontalLine">
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

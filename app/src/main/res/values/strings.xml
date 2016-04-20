@@ -1,0 +1,70 @@
+
+<resources>
+  <string name="app_name">ELEC 390 - Group L</string>
+
+  <string name="action_reset">Reset</string>
+  <string name="action_disconnect">Quit</string>
+
+  <string name="title_firmware_update">Firmware Update</string>
+  <string name="title_warning">Warning</string>
+  <string name="title_error">Error</string>
+  <string name="title_select_device">Select Device</string>
+  <string name="title_connecting">Connecting</string>
+  <string name="title_reconnect_attempt">Reconnecting</string>
+
+  <string name="notify_dfu_bootloader">Entering Bootloader Mode</string>
+  <string name="notify_dfu_starting">Starting Update</string>
+  <string name="notify_dfu_validating">Validating</string>
+  <string name="notify_dfu_disconnecting">Disconnecting</string>
+  <string name="notify_dfu_uploading">Uploading</string>
+  <string name="notify_dfu_success">DFU Succeeded</string>
+  <string name="notify_dfu_fail">DFU Failed</string>
+
+  <string name="message_soft_reset">Soft reset issued</string>
+  <string name="message_wait">Please wait</string>
+  <string name="message_dfu_accept">A firmware update is available.  Do you wish to download the newest firmware version?</string>
+  <string name="message_dfu">Updating the firmware to the latest version, please wait</string>
+  <string name="message_dfu_success">Firmware successfully updated to the latest version</string>
+  <string name="message_dfu_fail">Firmware failed to update.</string>
+  <string name="message_dfu_latest">Your board is already running the latest firmware.  Do you still wish to proceed with the firmware update anyways?</string>
+  <string name="message_metaboot">Your device is in MetaBoot mode.  Typically the board will reset itself back to normal operation
+  in a minute.  In the case where it is stuck in MetaBoot mode, you can manually return the board to normal by initiating a firmware update.</string>
+  <string name="message_no_config">No configuration options for this panel</string>
+
+  <string name="error_soft_reset">Cannot issue soft reset</string>
+  <string name="error_fragment_bus">must implement the FragmentBus interface</string>
+  <string name="error_unsupported_module">module (sensor) is not supported on this board</string>
+
+  <string name="config_name_ad_device_name">Device Name</string>
+  <string name="config_desc_ad_device_name">Set the advertising name</string>
+  <string name="config_name_ad_interval">Advertising Interval</string>
+  <string name="config_desc_ad_interval">Interval between consecutive advertising packets, in milliseconds</string>
+  <string name="config_name_ad_timeout">Advertising Timeout</string>
+  <string name="config_desc_ad_timeout">Advertising timeout, in milliseconds</string>
+  <string name="config_name_ad_tx">Advertising Tx Power</string>
+  <string name="config_desc_ad_tx">Advertising transmitting power</string>
+
+  <string name="label_edit">Edit</string>
+  <string name="label_enable">Enable</string>
+  <string name="label_disable">Disable</string>
+  <string name="label_cancel">Cancel</string>
+  <string name="label_commit">Commit</string>
+  <string name="label_ok">OK</string>
+  <string name="label_clear">Clear</string>
+  <string name="label_save">Save</string>
+  <string name="label_yes">Yes</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="navigation_drawer_elec390_groupl">ELEC 390 - Group L</string>
+  <string name="navigation_fragment_home">NutriCube</string>
+  <string name="navigation_fragment_gpio">Manual Control</string>
+  <string name="navigation_fragment_settings">Settings</string>
+
+  <string name="temp_name">Temperature Limits</string>
+  <string name="temp_desc">Insert the maximum and minimum allowed temperatures for the greenhouse, once done click set limitations.</string>
+  <string name="daylight_name">Amount of Light</string>
+  <string name="daylight_desc">Insert the total amount of daylight you would like to give your plants based on a 24 hour cycle. If a value the value is above 24 or less than 1, it will automatically be set to 10.  </string>
+  <string name="manual_name">Manual Controls</string>
+  <string name="manual_desc">This page allows you to manually turn on or off the components.</string>
+</resources>

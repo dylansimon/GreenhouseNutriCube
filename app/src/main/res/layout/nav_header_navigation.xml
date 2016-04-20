@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="60dp"
+    android:background="@drawable/side_nav_bar"
+    android:paddingBottom="10dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" android:orientation="horizontal"
+    android:gravity="bottom">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@mipmap/ic_launcher" android:id="@+id/imageView" />
+
+    <LinearLayout
+
+
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing" android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/navigation_drawer_elec390_groupl" android:id="@+id/temperature" />
+    </LinearLayout>
+
+</LinearLayout>
